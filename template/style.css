@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*  HEAD -- font-family: 'Anton', sans-serif;
+    SUBHEAD -- font-family: 'Noto Sans KR', sans-serif;
+    P -- font-family: 'Noto Serif', serif;*/
+
+body {
+    font-family: 'Noto Serif', serif;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+#logo {
+    position: relative;
+    height: 100px;
+    width: auto;
+    margin-left: auto;
+    padding-top: 20px;  
+}
+
+#logo:hover {
+    background-color: #fbff00;
+    border-radius: 50%;
+}
+
+#info-corner {
+    margin-left: auto;
+}
+
+.icon {
+    height: 20px;
+    width: auto;
+    position: absolute;   
+}
+
+#contact-tab {
+    position: absolute;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 144px;
+    line-height: 1;
+}
+
+nav {
+    align-self: flex-end;
+}
+
+h3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 30px;
+}
+
+#about {
+    padding: 50px;
+}
+
+#timeline {
+    display: flex;
+    flex-direction: column;
+}
+
+.line {    
+    border-left: double;
+    border-left-width: 5px;
+    margin-left: 50px;
+}
+
+.timeline-element{
+    border-radius: 20px;
+    background-color: cornflowerblue;
+    width: max-content;
+    height: auto;
+    display: flex;
+}
+
+.time-img {
+    height: 5vw;
+    width: auto;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
