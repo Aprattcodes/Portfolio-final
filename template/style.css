@@ -33,7 +33,6 @@ header {
 
 #logo:hover {
     background-color: #fbff00;
-    border-radius: 50%;
 }
 
 #info-corner {
@@ -48,6 +47,30 @@ header {
 
 #contact-tab {
     position: absolute;
+    top: 7rem;
+}
+
+#github {
+    right: 1rem;
+    height: 3rem;
+    bottom: 1rem;
+}
+
+#linkedin {
+    height: 2rem;
+    right: .3rem;
+}
+
+#codepen {
+    height: 1.5rem;
+    top: 2rem;
+    left: .5rem;
+}
+
+#twitter {
+    height: 1rem;
+    left: 3rem;
+    top: 2.5rem;
 }
 
 h1 {
