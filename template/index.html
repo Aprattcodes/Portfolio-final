@@ -7,13 +7,16 @@
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans+KR:wght@300&family=Noto+Serif&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     <div class="flex">
     <header>
         <div id="title-container">
-            <h1>Hello! I am Alyssa
-                <br>I am a _
+            <h1>Hello!
+                I am<br>A<span id="text-span">
+                </span>
+                
             </h1>
         </div>
         <div id="info-corner">
@@ -26,10 +29,10 @@
             </div>
         </div>
         <nav>
-            <ul>
-                <li>Projects</li>
-                <li>Resume</li>
-                <li>Blog</li>
+            <ul style="list-style: none;">
+                <li id="project-tab" class="nav-items">Projects</li>
+                <li id="resume-tab" class="nav-items">Resume</li>
+                <li id="blog-tab" class="nav-items">Blog</li>
             </ul>
         </nav>
     </header>
@@ -62,6 +65,7 @@
         </div>
     </div>
 </div>
-</body>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 <script src="app.js"></script>
+</body>
 </html>

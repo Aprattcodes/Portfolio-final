@@ -20,7 +20,6 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    padding: 10px;
 }
 
 #logo {
@@ -77,10 +76,36 @@ h1 {
     font-family: 'Anton', sans-serif;
     font-size: 144px;
     line-height: 1;
+    margin-left: 50px;
+    margin-top: 10px;
 }
 
+#text-span {
+    color: yellow;
+    padding: 0;
+}
 nav {
     align-self: flex-end;
+    text-align: end;
+}
+
+.nav-items {
+   padding-top: .5rem; 
+   font-family: 'Anton', sans-serif;
+   
+}
+
+#project-tab {
+    background-color: cyan;
+    width: 5rem;
+}
+
+#resume-tab {
+    background-color: magenta;
+}
+
+#blog-tab {
+    background-color: yellow;
 }
 
 h3{

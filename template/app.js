@@ -1,12 +1,8 @@
-var logo1 = document.getElementById('github');
 
-dynamics.animate(document.getElementById('github'), {
-  translateX: 350,
-  scale: 2,
-  opacity: 0.5
-}, {
-  type: dynamics.spring,
-  frequency: 200,
-  friction: 200,
-  duration: 1500
+new Typed('#text-span', {
+    strings: [':)','lyssa Hardwick', 'n artist', '_developer', 'n animal lover', '_designer', '_self learner', '_creative' ],
+    typeSpeed: 80,
+    backSpeed: 40,
+    cursorChar: '_',
+    loop: true
 });
