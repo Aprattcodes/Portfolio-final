@@ -117,9 +117,23 @@ h3{
     padding: 50px;
 }
 
+/*
 #timeline {
     display: flex;
     flex-direction: column;
+    max-width: 700px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+
+#tl-title{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    line-height: 3;
+    text-align: inherit;
 }
 
 .line {    
@@ -127,19 +141,59 @@ h3{
     border-left-width: 5px;
     margin-left: 50px;
 }
-
-.timeline-element{
+.timeline-element {
+    position: relative;
+}
+.timeline-li{
     border-radius: 20px;
-    background-color: cornflowerblue;
-    width: max-content;
+    max-width: 50rem;
     height: auto;
     display: flex;
+    position: relative;
+    background-color: silver;
 }
 
+
 .time-img {
-    height: 5vw;
+    max-height: 20rem;
     width: auto;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
 
+.timeline_content-title {
+    font-size: 4vh;
+}
+
+.timeline_content-desc {
+    max-width: 300px;
+    text-align: left;
+    padding: 1rem;
+    font-size: 2vh;
+    align-self: center;
+}
+*/
+
+.project-container{
+    padding-left: 10rem;
+    padding-right: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project{
+    overflow: hidden;
+}
+
+object{
+    width: 20rem;
+    height: 25rem;
+    overflow: hidden;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
