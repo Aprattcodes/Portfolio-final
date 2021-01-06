@@ -22,54 +22,23 @@ header {
     flex-direction: row;
 }
 
-#logo {
-    position: relative;
+.logo-default{
     height: 100px;
     width: auto;
-    margin-left: auto;
     padding-top: 20px;  
-}
-
-#logo:hover {
-    background-color: #fbff00;
-}
-
+    position: sticky;
+  }
+  
 #info-corner {
     margin-left: auto;
 }
 
 .icon {
-    height: 20px;
+    height: 10px;
     width: auto;
-    position: absolute;   
-}
-
-#contact-tab {
     position: absolute;
-    top: 7rem;
-}
-
-#github {
-    right: 1rem;
-    height: 3rem;
-    bottom: 1rem;
-}
-
-#linkedin {
-    height: 2rem;
-    right: .3rem;
-}
-
-#codepen {
-    height: 1.5rem;
-    top: 2rem;
-    left: .5rem;
-}
-
-#twitter {
-    height: 1rem;
-    left: 3rem;
-    top: 2.5rem;
+    top: 40px;
+    right: 88px;
 }
 
 h1 {

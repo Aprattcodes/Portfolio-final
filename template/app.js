@@ -1,4 +1,4 @@
-
+//type animation
 new Typed('#text-span', {
     strings: [':)','lyssa Hardwick', 'n artist','_gamer', '_developer', 'n animal lover', '_designer', '_self learner', '_creative' ],
     typeSpeed: 80,
@@ -6,3 +6,44 @@ new Typed('#text-span', {
     cursorChar: '_',
     loop: true
 });
+//logo click animation
+var gitLogo = document.getElementById('github');
+var linkLogo = document.getElementById('linkedin');
+var codeLogo = document.getElementById('codepen');
+var twLogo = document.getElementById('twitter');
+
+const logoClick =
+logo.addEventListener('click', () => {
+  var tl =
+ anime.timeline({
+   targets: '.logo-default',
+   height: '80px', 
+   duration: 800
+ });
+  tl
+  .add({
+    targets: gitLogo,
+    height: 40,
+    translateX: -85 
+    })
+  .add({
+    targets: linkLogo,
+    height: 30,
+    translateX: -80,
+    translateY: 50
+    })
+  .add({
+    targets: codeLogo,
+    height: 25,
+    translateX: -50,
+    translateY: 70
+    })
+  .add({
+    targets: twLogo,
+    height: 23,
+    translateX: -12,
+    translateY: 75
+    })
+
+});
+
