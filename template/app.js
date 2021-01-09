@@ -17,8 +17,8 @@ logo.addEventListener('click', () => {
   var tl =
  anime.timeline({
    targets: '.logo-default',
-   height: '80px', 
-   duration: 800
+   height: '5rem', 
+   duration: 300
  });
   tl
   .add({
@@ -43,7 +43,7 @@ logo.addEventListener('click', () => {
     height: 23,
     translateX: -12,
     translateY: 75
-    })
+    });
 
 });
 
