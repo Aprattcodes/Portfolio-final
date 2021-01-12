@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*  HEAD -- font-family: 'Anton', sans-serif;
+    SUBHEAD -- font-family: 'Noto Sans KR', sans-serif;
+    P -- font-family: 'Noto Serif', serif;*/
+
+body {
+    font-family: 'Noto Serif', serif;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-default{
+    height: 100px;
+    width: auto;
+    padding-top: 20px;  
+    position: sticky;
+  }
+  
+#info-corner {
+    margin-left: auto;
+}
+
+.icon {
+    height: 10px;
+    width: auto;
+    position: absolute;
+    top: 40px;
+    right: 88px;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 144px;
+    line-height: 1;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#text-span {
+    color: yellow;
+    padding: 0;
+}
+nav {
+    align-self: flex-end;
+    text-align: end;
+}
+
+.nav-items {
+   padding-top: .5rem; 
+   font-family: 'Anton', sans-serif;
+   
+}
+
+#project-tab {
+    background-color: cyan;
+    width: 5rem;
+}
+
+#resume-tab {
+    background-color: magenta;
+}
+
+#blog-tab {
+    background-color: yellow;
+}
+
+h3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 30px;
+}
+
+#about {
+    padding: 50px;
+}
+
+.project-container{
+    padding-left: 10rem;
+    padding-right: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project{
+    overflow:hidden;
+}
+
+object{
+    width: 20rem;
+    height: 25rem;
+    overflow: hidden;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
